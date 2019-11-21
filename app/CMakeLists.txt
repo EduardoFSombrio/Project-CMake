@@ -3,15 +3,11 @@ project(Lista_Banco)
 
 include_directories(Interface)
 include_directories(Controller)
+include_directories(Command)
 
 set(SOURCE
 	Applist.cpp
 	AppList.h
-	CommandApp.h
-	CommandEditWindow.cpp
-	CommandEditWindow.h
-	CommandVisualizationWindow.cpp
-	CommandVisualizationWindow.h
 )
 
 add_library(source "${SOURCE}")
